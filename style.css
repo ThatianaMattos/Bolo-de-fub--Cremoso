@@ -1,0 +1,32 @@
+/* Define a fonte para todo o corpo do documento */
+body {
+    font-family: Arial, sans-serif;
+}
+/* Define o estilo para a imagem */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+}
+/* Define a margem para as divs de ingredientes e instruções */
+.ingredientes, .preparo {
+    margin: 20px;
+}
+/* Define a cor para os títulos h1 e h2 */
+h1, h2 {
+    background-color: #fd7e07;
+    padding: 10px;
+    color: #fff;
+}
+/* Define a margem para os itens da lista */
+li {
+    margin: 10px 0;
+}
+/* Define o estilo para o cabeçalho e o rodapé */
+header, footer {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+}
